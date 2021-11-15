@@ -36,11 +36,10 @@ const Productdetail = (props) => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum similique saepe facilis cupiditate dignissimos tempora, deserunt id sit assumenda et. Cupiditate facere est quos earum libero amet, fugit dolor. Nesciunt nulla officiis totam tempora reprehenderit exercitationem corrupti error delectus dicta.
                         amet consectetur adipisicing elit. Dolorum similique saepe facilis cupiditate dignissimos tempora, deserunt id sit assumenda et. Cupiditate facere est quos earum libero amet, fugit dolor. Nesciunt nulla officiis totam tempora reprehenderit exercitationem corrupti error delectus dicta
                     </p>
-                    <div className='d-flex justify-content-around'>
-                        <a href={`/product/${paramsUrl - 1}`} className='btn btn-primary'>Back Item</a>
-                        <a href={`/product/${paramsUrl + 1}`} className='btn btn-primary'>Next Item</a>
+                    <div className='d-flex justify-content-around mb-5 mt-5'>
+                        <a href={`/product/${paramsUrl - 1}`} className='btn btn-success'>Back Item</a>
+                        <a href={`/product/${paramsUrl + 1}`} className='btn btn-success'>Next Item</a>
                     </div>
-
                 </div>)
                 : (<h1 className='text-center mt-5 mb-5'>
                     <button className='btn btn-primary' onClick={() => history.goBack()}>No Item To Back !!! Come Last Item</button>
