@@ -1,6 +1,6 @@
 # React Apple Website 
 
-This is website what is selling phone brand from Apple store.
+This is website what is Apple phone.
 
 Created 08/11/2021
 
@@ -8,7 +8,7 @@ Created 08/11/2021
 
 I used json-server so that i could create api. Then push it on https://github.com/ and https://www.heroku.com/
 
-I create 9 products, 6 user , 3 cagetories Api
+I create 9 products, 6 users , 3 cagetories Api
 
 # Feature
 
@@ -29,7 +29,7 @@ _ Login by Gmail
 
 # Mange Store 
 
-_ Inventore Item
+_ Inventory Item
 
 _ Add item 
 
