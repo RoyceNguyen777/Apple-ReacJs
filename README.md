@@ -1,6 +1,6 @@
 # React Apple Website 
 
-This is website what is Apple phone.
+This is website what selling Apple phone.
 
 Created 08/11/2021
 
