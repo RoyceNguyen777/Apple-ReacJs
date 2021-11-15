@@ -1,12 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
+import store from './components/Redux/store/store';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+
+
+// console.log(store.getState());
+
+// store.dispatch({ type: 'Add_Ward' })
+// console.log(store.getState());
+
+// store.dispatch({ type: 'Add_District' })
+// console.log(store.getState());
+
+// store.dispatch({
+//   type: 'Default', payload: {
+//     newaddress: '22/27/30 '
+//   }
+// })
+// console.log(store.getState());
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
