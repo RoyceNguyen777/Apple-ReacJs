@@ -57,6 +57,8 @@ function Register(props) {
                         </div>
                         <span >Currently,we haven't had sign up feature yet. We will update it in the future. Please Login by your
                             <a href='/' className='text-primary'> Google Account</a> 
+                            or
+                            <a href='/' className='text-primary'> Facebook Account</a>
                         </span>
                         <div className='form-group mt-4'>
                             <button className='btn btn-success form-control' type='submit'>Submit</button>
